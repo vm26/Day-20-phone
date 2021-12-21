@@ -2,6 +2,8 @@ var url="https://api-mobilespecs.azharimm.site/v2/brands";
 document.body.innerHTML=`
 <div class="header"><h1>Brands</h1></div>
 <div class="result"></div>`;
+
+//Display all the necessary details of phone
 function displayResult(){
     let result=document.querySelector('.result');
     result.innerHTML="";
